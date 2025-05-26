@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAYANGANA BURUNDI</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: url('https://source.unsplash.com/1600x900/?burundi-beauty') no-repeat center center/cover;
+      color: #333;
+    }
+    header {
+      background: #ffffff; /* Iryera rikomeye cane */
+      color: #008000; /* Icyatsi kiboneka neza */
+      padding: 1rem 0;
+      text-align: center;
+      border-bottom: 5px solid #D62828; /* Umutuku */
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    nav {
+      background: #008000; /* Icyatsi */
+      padding: 0.5rem;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    .language-switcher {
+      margin-top: 10px;
+      text-align: center;
+    }
+    .language-switcher select {
+      padding: 5px;
+      font-size: 1rem;
+    }
+    section {
+      padding: 20px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.9); /* Umweru */
+      margin: 10px;
+      border-radius: 10px;
+    }
+    section h2 {
+      color: #D62828; /* Umutuku */
+    }
+    section img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin: 15px 0;
+    }
+    footer {
+      background: #008000; /* Icyatsi */
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+    }
+    footer a {
+      color: #D62828;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    .form-container {
+      max-width: 600px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .form-container input, .form-container textarea, .form-container select {
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .form-container button {
+      background: #D62828; /* Umutuku */
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .form-container button:hover {
+      background: #B22222;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SAYANGANA BURUNDI</h1>
+    <div class="language-switcher">
+      <label for="language">Changer la langue :</label>
+      <select id="language">
+        <option value="fr">Français</option>
+        <option value="en">English</option>
+        <option value="rn">Kirundi</option>
+        <option value="sw">Kiswahili</option>
+        <option value="es">Español</option>
+        <option value="zh">中文 (Chinois)</option>
+      </select>
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#home">Accueil</a></li>
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#activities">Activités</a></li>
+      <li><a href="#register">S'inscrire</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section id="home">
+    <h2>Bienvenue sur SAYANGANA BURUNDI</h2>
+    <p>Découvrez les merveilles culturelles et naturelles du Burundi.</p>
+  </section>
+  <section id="about">
+    <h2>À propos</h2>
+    <p>Le Burundi, pays des tambours royaux et des paysages magnifiques, vous accueille pour une expérience inoubliable.</p>
+    <img src="https://source.unsplash.com/800x500/?burundi" alt="Paysage du Burundi">
+    <img src="https://source.unsplash.com/800x500/?burundi-culture" alt="Culture du Burundi">
+  </section>
+  <section id="activities">
+    <h2>Nos Activités</h2>
+    <p>Explorez nos parcs nationaux, lacs, montagnes et traditions culturelles uniques.</p>
+  </section>
+  <section id="register">
+    <h2>S'inscrire</h2>
+    <div class="form-container">
+      <form>
+        <input type="text" placeholder="Nom complet" required>
+        <input type="email" placeholder="Adresse e-mail" required>
+        <textarea placeholder="Message ou raison d'inscription"></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contactez-nous</h2>
+    <p>Email: <a href="mailto:contact@sayanganaburundi.bi">contact@sayanganaburundi.bi</a></p>
+    <p>Email: <a href="mailto:akomezagusenga@gmail.com">akomezagusenga@gmail.com</a></p>
+    <p>Téléphone: +257 69524113</p>
+    <p>Suivez-nous sur :</p>
+    <p>
+      <a href="https://www.facebook.com" target="_blank">Facebook</a> | 
+      <a href="https://www.instagram.com" target="_blank">Instagram</a> | 
+      <a href="https://twitter.com" target="_blank">X</a>
+    </p>
+  </section>
+  <footer>
+    <p>&copy; 2025 SAYANGANA BURUNDI. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
